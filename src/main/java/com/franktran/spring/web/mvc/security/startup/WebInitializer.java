@@ -6,7 +6,7 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
   @Override
   protected Class<?>[] getRootConfigClasses() {
-    return new Class[] {RootConfig.class};
+    return null;
   }
 
   @Override
@@ -16,6 +16,6 @@ public class WebInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
   @Override
   protected String[] getServletMappings() {
-    return new String[] {"/"};
+    return null;
   }
 }
